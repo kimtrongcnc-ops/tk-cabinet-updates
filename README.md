@@ -2,16 +2,20 @@
 
 Các bản cập nhật chính thức của TK CABINET cho SketchUp.
 
-Bản hiện tại: **1.99.204 — ngày 16/10/2026**.
+Bản hiện tại: **1.99.205 — ngày 17/10/2026**.
 
-[Tải bộ cài TK CABINET 1.99.204 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.204_MA_HOA_SK2023_2026.rbz)
+[Tải bộ cài TK CABINET 1.99.205 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.205_MA_HOA_SK2023_2026.rbz)
 
-## Thay đổi trong bản 1.99.204
+## Thay đổi trong bản 1.99.205
 
-- Cam/chốt chỉ nhận khi cả hai tấm ghép dày từ 16 đến 19 mm, kể cả chạy thủ công. Chạy lại cam/chốt để áp dụng cho dấu đã tạo trước đây.
-- Rãnh hậu không dừng cả lô khi một rãnh quá sâu: bỏ qua rãnh xuyên tấm, báo tấm cần kiểm tra và tiếp tục tạo các rãnh hợp lệ.
-- Khi chạy rãnh hậu, cô lập phạm vi đang xử lý; hoàn tất hoặc gặp lỗi tự khôi phục trạng thái ẩn/hiện trước đó.
-- Bỏ số điện thoại trên dòng phiên bản Nesting; chữ phiên bản lớn hơn và hiển thị đúng bản đang chạy.
+- Giữ bố cục cài dao và báo cáo tấm quen thuộc. Thêm Z in đậm cạnh số lần cắt: xanh khi không âm, đỏ khi âm; tính theo độ dày và gốc Z đang dùng.
+- Mô phỏng 3D có vân gỗ, màu lõi ở cạnh cắt, xem được mặt dưới và dao đang chạy. Có thanh tốc độ và nút ẩn gỗ thừa đã cắt rời; giữ nút ẩn/hiện đường chạy.
+- Viền lật mặt điều chỉnh được, tính cả bán kính dao, phần ván bị xén và tọa độ hai mặt khi lật trái–phải. Chặn xuất khi khoảng chừa mép không đủ.
+- Cam/chốt, rãnh hậu và khoan hậu nhận tấm trong group/module theo độ dày cài đặt. Dải mặc định cam/chốt 16–19 mm, hậu 5–10 mm; vẫn kiểm tra điều kiện ghép của từng chức năng.
+- Thêm kiểu hèm kính + cắt lòng với hai đường dao: bào hèm trước, cắt lòng sau.
+- Áp dụng giảm tốc cuối đường/cung tròn và nội suy G2/G3 khi Post hỗ trợ.
+
+Đã kiểm tra bằng dữ liệu thử, mô phỏng và kiểm tra mã xuất; chưa chạy cắt thực tế trên máy CNC. Sau cập nhật, nạp lại đường dao và đối chiếu mô phỏng, gốc Z, dao cùng Post trước khi chạy máy.
 
 ## Cập nhật từ bản 1.99.203 trở lên
 
