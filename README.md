@@ -2,22 +2,17 @@
 
 Các bản cập nhật chính thức của TK CABINET cho SketchUp.
 
-Bản hiện tại: **1.99.208 — ngày 17/10/2026**.
+Bản hiện tại: **1.99.209 — ngày 17/10/2026**.
 
-[Tải bộ cài TK CABINET 1.99.208 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.208_MA_HOA_SK2023_2026.rbz)
+[Tải bộ cài TK CABINET 1.99.209 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.209_MA_HOA_SK2023_2026.rbz)
 
-## Thay đổi trong bản 1.99.208
+## Thay đổi trong bản 1.99.209
 
-- **Xếp tấm** mở sơ đồ và công cụ chống văng. Bấm **Load sơ đồ xếp tấm** để xếp các tấm đang chọn trong SketchUp. Khi đổi trang, sơ đồ được giữ trong cùng cửa sổ; đóng Nesting rồi mở lại sẽ bắt đầu trống để Load hoặc tải sơ đồ cũ.
-- Bỏ nút Chống văng và Xem tấm trên thanh trên cùng. Nút **Chọn đường dao chạy** giữ vị trí cũ ở cửa sổ rộng. Chuyển Cài đặt xếp tấm sang phải, tăng kích thước Lưu thiết lập; thông báo hoàn tất chống văng đổi sang xanh đậm.
-- Thêm chỉnh **Độ dày nét viền sơ đồ** trong phần Sửa tem. Viền ván và chi tiết trên sơ đồ đổi cùng nhau, lưu theo mẫu và giữ khi in; nét dấu vị trí và nét chữ chỉnh riêng.
-- **In tem / PDF** mở bản tem trong trình duyệt mặc định và yêu cầu hiện hộp thoại in, khắc phục phụ thuộc lệnh in trong HtmlDialog đời cũ. Giữ tem được chọn, khổ tem và có nút in lại.
-- Đường dao mới tạo hoặc tự sinh theo Layer được chèn lên đầu và cuộn đến dòng mới. Các đường dao cũ giữ thứ tự đã xếp.
-- Khi kéo dao, các dòng tự dạt ra và hiện khoảng trống để thả; Esc hủy kéo.
-- Tâm tấm giữ cố định khi xoay và thu/phóng 3D. Space thoát DIM và giữ số đo đã đặt; chạy/dừng mô phỏng bằng nút ▶/Ⅱ, không dùng Space.
-- Bỏ nút Đọc Z; chọn dao hoặc Layer sẽ tự đọc bằng giọng cũ theo ngôn ngữ đang chọn. Bấm lại vẫn đọc dù không đổi độ sâu. Âm đọc có sẵn trong bộ cài, không cần đăng nhập.
+- **Xuất ASPIRE chỉ lấy sơ đồ tấm và Layer hình học**, giữ tỷ lệ 1:1 mm. Không phụ thuộc cài đặt tem, dao, Post hoặc mã NC.
+- Sửa lỗi **“Cài đặt tem nhãn không hợp lệ”** sau khi thêm chỉnh nét viền sơ đồ tem. Lưu thiết lập, lưu sơ đồ và xuất NC nhận đúng thông số nét viền; giữ tương thích mẫu tem cũ.
+- Giữ các cải tiến của bản 1.99.208: bố cục Xếp tấm, in tem qua trình duyệt, dao mới lên đầu, kéo thả có khoảng trống, tâm xoay 3D cố định và Space thoát DIM.
 
-Đã kiểm tra bố cục, thao tác Load, đọc Z và bản in thử 4 tem thành 4 trang PDF khổ 60 × 40 mm; mã tạo bản in chạy được trên thư viện Ruby của SketchUp 2023. Chưa kiểm tra trực tiếp hộp thoại in trong SketchUp 2023 hoặc máy in thật.
+Đã kiểm tra dữ liệu từ giao diện qua bộ xuất Ruby, đối chiếu tọa độ và Layer DXF, đọc/lưu sơ đồ và kiểm tra xuất NC. Kiểm tra Ruby của SketchUp 2023 đạt. Chưa chạy máy CNC hay in giấy thực tế.
 
 ## Cập nhật từ bản 1.99.203 trở lên
 
