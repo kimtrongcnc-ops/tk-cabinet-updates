@@ -1,18 +1,20 @@
-# TK CABINET
+# TK CABINET 1.99.210
 
-Các bản cập nhật chính thức của TK CABINET cho SketchUp.
+Bộ cập nhật đã ký và mã hóa cho SketchUp 2023–2026.
 
-Bản hiện tại: **1.99.209 — ngày 17/10/2026**.
+- Xuất ASPIRE: hiện bảng chọn tấm trước, rồi mở Aspire; bảng TK không tự che lên cửa sổ Aspire. Chỉ xuất hình học tấm và Layer.
+- In tem: vẫn cho in khi chữ tràn khổ, giữ cảnh báo phần chữ có thể bị cắt.
+- Sửa tem: khung chọn sơ đồ ôm sát hình; kéo và phóng to đúng tỷ lệ. Hiện tên Trên, Phải, Dưới, Trái khi sửa, không in các tên hướng dẫn này.
+- Tích bật Layer đọc Z của dao tương ứng theo các tấm của Layer; bỏ tích không đọc. Âm thanh offline theo ngôn ngữ đang chọn.
+- Load đường dao chuyển xuống hàng trên danh sách Layer.
 
-[Tải bộ cài TK CABINET 1.99.209 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.209_MA_HOA_SK2023_2026.rbz)
+Cài file `TK_CABINET_1.99.210_MA_HOA_SK2023_2026.rbz`, lưu bản vẽ rồi đóng/mở lại SketchUp. Máy đã có TK CABINET có thể dùng mục cập nhật trong tiện ích.
 
-## Thay đổi trong bản 1.99.209
+`latest.json` có chữ ký xác minh bộ cập nhật. Chỉ gói RBZ đã mã hóa và bản kê cập nhật được phát hành; không bao gồm khóa riêng hay công cụ cấp phép.
 
-- **Xuất ASPIRE chỉ lấy sơ đồ tấm và Layer hình học**, giữ tỷ lệ 1:1 mm. Không phụ thuộc cài đặt tem, dao, Post hoặc mã NC.
-- Sửa lỗi **“Cài đặt tem nhãn không hợp lệ”** sau khi thêm chỉnh nét viền sơ đồ tem. Lưu thiết lập, lưu sơ đồ và xuất NC nhận đúng thông số nét viền; giữ tương thích mẫu tem cũ.
-- Giữ các cải tiến của bản 1.99.208: bố cục Xếp tấm, in tem qua trình duyệt, dao mới lên đầu, kéo thả có khoảng trống, tâm xoay 3D cố định và Space thoát DIM.
+Chưa kiểm tra in trên máy in vật lý. Khi đưa DXF vào Aspire, kiểm tra độ dày phôi trong Job Setup trước khi tạo đường dao.
 
-Đã kiểm tra dữ liệu từ giao diện qua bộ xuất Ruby, đối chiếu tọa độ và Layer DXF, đọc/lưu sơ đồ và kiểm tra xuất NC. Kiểm tra Ruby của SketchUp 2023 đạt. Chưa chạy máy CNC hay in giấy thực tế.
+[Tải bộ cài TK CABINET 1.99.210 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.210_MA_HOA_SK2023_2026.rbz)
 
 ## Cập nhật từ bản 1.99.203 trở lên
 
