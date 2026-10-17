@@ -2,23 +2,22 @@
 
 Các bản cập nhật chính thức của TK CABINET cho SketchUp.
 
-Bản hiện tại: **1.99.207 — ngày 17/10/2026**.
+Bản hiện tại: **1.99.208 — ngày 17/10/2026**.
 
-[Tải bộ cài TK CABINET 1.99.207 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.207_MA_HOA_SK2023_2026.rbz)
+[Tải bộ cài TK CABINET 1.99.208 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.208_MA_HOA_SK2023_2026.rbz)
 
-## Thay đổi trong bản 1.99.207
+## Thay đổi trong bản 1.99.208
 
-- **Xuất NC** chọn nơi lưu rồi hiện hộp **Save / Hủy**. Bấm Save một lần để lưu cả bộ NC và sơ đồ xếp tấm vào cùng thư mục bộ; NC vẫn chia theo vật liệu và độ dày, sơ đồ nằm trong `Xep_tam`. Lưu xong tự mở thư mục. Hủy thì không ghi bộ mới.
-- **Chọn đường dao chạy** thay tên mục Xuất CNC. Nút Xuất NC nằm cạnh Load đường dao; bỏ các nút xuất trùng.
-- Mở mô phỏng bằng nút ▶ của từng tấm để xem đúng tấm, đúng mặt. Giữ danh sách tấm bên trái, hình 3D ở giữa và G-code bên phải; bỏ nút Xuất NC trong mô phỏng. Quay lại không cần Load lại nếu dữ liệu chưa đổi.
-- Giảm khối lượng dựng hình và giới hạn nhịp vẽ mô phỏng; chỉ dựng tấm đang xem. Giữ hình học cắt, lỗ khoan và các góc nhìn.
-- Khi phóng toàn màn hình, vùng xem tấm mở rộng thành lưới nhiều cột; cửa sổ nhỏ giữ bố cục đang dùng.
-- Sau Load, hình xem trước thể hiện đường cắt, lỗ khoan và rãnh theo màu Layer.
-- Danh sách Layer có ba vùng thao tác: tìm dao, báo cáo các tấm cùng Layer, và chọn/gán Layer. Báo cáo cùng các thẻ tấm liên quan hiện màu xanh đậm.
-- Đọc Z theo ngôn ngữ đang chọn, dùng âm thanh đóng gói sẵn. Bấm Layer, đổi dao hoặc độ sâu đều có thể đọc lại; có nút tắt/mở.
-- Bỏ thao tác nháy đúp vùng trống cột Layer để ẩn thông số và dòng hướng dẫn tương ứng; giữ báo cáo tấm.
+- **Xếp tấm** mở sơ đồ và công cụ chống văng. Bấm **Load sơ đồ xếp tấm** để xếp các tấm đang chọn trong SketchUp. Khi đổi trang, sơ đồ được giữ trong cùng cửa sổ; đóng Nesting rồi mở lại sẽ bắt đầu trống để Load hoặc tải sơ đồ cũ.
+- Bỏ nút Chống văng và Xem tấm trên thanh trên cùng. Nút **Chọn đường dao chạy** giữ vị trí cũ ở cửa sổ rộng. Chuyển Cài đặt xếp tấm sang phải, tăng kích thước Lưu thiết lập; thông báo hoàn tất chống văng đổi sang xanh đậm.
+- Thêm chỉnh **Độ dày nét viền sơ đồ** trong phần Sửa tem. Viền ván và chi tiết trên sơ đồ đổi cùng nhau, lưu theo mẫu và giữ khi in; nét dấu vị trí và nét chữ chỉnh riêng.
+- **In tem / PDF** mở bản tem trong trình duyệt mặc định và yêu cầu hiện hộp thoại in, khắc phục phụ thuộc lệnh in trong HtmlDialog đời cũ. Giữ tem được chọn, khổ tem và có nút in lại.
+- Đường dao mới tạo hoặc tự sinh theo Layer được chèn lên đầu và cuộn đến dòng mới. Các đường dao cũ giữ thứ tự đã xếp.
+- Khi kéo dao, các dòng tự dạt ra và hiện khoảng trống để thả; Esc hủy kéo.
+- Tâm tấm giữ cố định khi xoay và thu/phóng 3D. Space thoát DIM và giữ số đo đã đặt; chạy/dừng mô phỏng bằng nút ▶/Ⅱ, không dùng Space.
+- Bỏ nút Đọc Z; chọn dao hoặc Layer sẽ tự đọc bằng giọng cũ theo ngôn ngữ đang chọn. Bấm lại vẫn đọc dù không đổi độ sâu. Âm đọc có sẵn trong bộ cài, không cần đăng nhập.
 
-Đã kiểm tra luồng Save/Hủy, dữ liệu đường dao, mô phỏng và đăng ký hai mặt khi thay hở viền bằng dữ liệu thử. Chưa chạy cắt CNC thực tế hoặc đo hiệu năng trên từng máy khách.
+Đã kiểm tra bố cục, thao tác Load, đọc Z và bản in thử 4 tem thành 4 trang PDF khổ 60 × 40 mm; mã tạo bản in chạy được trên thư viện Ruby của SketchUp 2023. Chưa kiểm tra trực tiếp hộp thoại in trong SketchUp 2023 hoặc máy in thật.
 
 ## Cập nhật từ bản 1.99.203 trở lên
 
