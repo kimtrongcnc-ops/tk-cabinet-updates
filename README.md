@@ -1,6 +1,11 @@
-# TK CABINET 1.99.212
+# TK CABINET 1.99.213
 
 Bộ cập nhật đã ký và mã hóa cho SketchUp 2023–2026.
+
+- Nhận vòng biên vật lý của tấm cong và lỗ xuyên, kể cả khi cạnh nằm ở nhiều Layer. Cùng một dao cắt lỗ bên trong trước, rồi biên ngoài; bù dao đúng từng phía.
+- Lỗ quá nhỏ không vừa dao được bỏ qua kèm cảnh báo số lượng, tên tấm và dao. Các lỗ lớn vẫn chạy. Không tự nối đường hở hoặc bỏ qua lỗi hốc/rãnh riêng.
+- Sơ đồ cũ cần nạp/xếp lại từ model để nhận vòng biên mới. Sơ đồ mới giữ đủ dữ liệu biên khi lưu và mở lại.
+
 
 - Xuất NC: tên bộ được điền sẵn theo tên model và có thể sửa trong hộp Save. Chỉ ghi sau Save; NC, sơ đồ và báo cáo Excel nằm cùng bộ.
 - Excel dùng tên bộ xuất kèm đuôi _Vat_tu.xlsx, gồm ván theo màu/độ dày/khổ và số lượng, nẹp dán cạnh theo màu và mét dài, phụ kiện trong model, cùng thông tin phạm vi thống kê. Tấm gia công hai mặt chỉ tính một tấm ván.
@@ -9,13 +14,13 @@ Bộ cập nhật đã ký và mã hóa cho SketchUp 2023–2026.
 - Suốt áo luôn tạo một lỗ mồi chính tâm mỗi bát. Lỗ dây LED nằm trên tâm rãnh và chọn riêng trái/phải; rãnh LED có mẫu, kích thước và mô phỏng ánh sáng.
 - Lưu mẫu tiếng Việt tương thích SketchUp 2023; giữ các chức năng báo cáo ray, suốt áo, bát treo và độ dài LED.
 
-Cài file `TK_CABINET_1.99.212_MA_HOA_SK2023_2026.rbz`, lưu bản vẽ rồi đóng/mở lại SketchUp. Máy đã có TK CABINET có thể dùng mục cập nhật trong tiện ích.
+Cài file `TK_CABINET_1.99.213_MA_HOA_SK2023_2026.rbz`, lưu bản vẽ rồi đóng/mở lại SketchUp. Máy đã có TK CABINET có thể dùng mục cập nhật trong tiện ích.
 
 `latest.json` có chữ ký xác minh bộ cập nhật. Chỉ gói RBZ đã mã hóa và bản kê cập nhật được phát hành; không bao gồm khóa riêng hay công cụ cấp phép.
 
-Đã kiểm tra Ruby 2.7/3.2, giao diện và dữ liệu Excel. Mô phỏng sáng là hình hiển thị trong model. Khi cập nhật phải đóng hết SketchUp rồi mở lại để nạp đầy đủ mã mới.
+Đã kiểm tra Ruby 2.7/3.2, lưu/đọc hình học, mô phỏng và sinh NC. Với tấm thử dùng T2 Ø6: 175 lỗ lớn và biên ngoài vẫn cắt, 4 lỗ nhỏ bỏ qua. Chưa chạy cắt CNC thực tế. Mô phỏng sáng là hình hiển thị trong model. Khi cập nhật phải đóng hết SketchUp rồi mở lại để nạp đầy đủ mã mới.
 
-[Tải bộ cài TK CABINET 1.99.212 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.212_MA_HOA_SK2023_2026.rbz)
+[Tải bộ cài TK CABINET 1.99.213 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.213_MA_HOA_SK2023_2026.rbz)
 
 ## Cập nhật từ bản 1.99.203 trở lên
 
