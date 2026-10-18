@@ -1,43 +1,31 @@
-# TK CABINET 1.99.213
+# TK CABINET 1.99.214
 
 Bộ cập nhật đã ký và mã hóa cho SketchUp 2023–2026.
 
-- Nhận vòng biên vật lý của tấm cong và lỗ xuyên, kể cả khi cạnh nằm ở nhiều Layer. Cùng một dao cắt lỗ bên trong trước, rồi biên ngoài; bù dao đúng từng phía.
-- Lỗ quá nhỏ không vừa dao được bỏ qua kèm cảnh báo số lượng, tên tấm và dao. Các lỗ lớn vẫn chạy. Không tự nối đường hở hoặc bỏ qua lỗi hốc/rãnh riêng.
-- Sơ đồ cũ cần nạp/xếp lại từ model để nhận vòng biên mới. Sơ đồ mới giữ đủ dữ liệu biên khi lưu và mở lại.
+## Nhập toàn bộ sơ đồ vào Aspire
 
+- Mỗi ván/mặt gia công nằm trên một Sheet riêng, giữ nguyên Layer và tọa độ xếp tấm.
+- Tách Job theo khổ ván và độ dày; đặt đơn vị mm và độ dày tự động.
+- Chọn Save cho từng Job, đổi tên trong File name nếu cần. Hủy Save giữ nguyên sơ đồ; bấm Tiếp tục để lưu lại.
+- Đã kiểm tra trên Aspire 9.514: 25 Sheet, 620 đối tượng, 5 Layer khớp tọa độ; 3 Job khác khổ/độ dày chuyển đúng, hủy và lưu lại không nhập trùng. Chưa thử trực tiếp các phiên bản Aspire khác.
 
-- Xuất NC: tên bộ được điền sẵn theo tên model và có thể sửa trong hộp Save. Chỉ ghi sau Save; NC, sơ đồ và báo cáo Excel nằm cùng bộ.
-- Excel dùng tên bộ xuất kèm đuôi _Vat_tu.xlsx, gồm ván theo màu/độ dày/khổ và số lượng, nẹp dán cạnh theo màu và mét dài, phụ kiện trong model, cùng thông tin phạm vi thống kê. Tấm gia công hai mặt chỉ tính một tấm ván.
-- Sửa nhận diện cạnh cắt xuyên trên tấm cong bị tính thành hai mặt; sơ đồ vẽ đúng đường cong, không còn khung chữ nhật dư tại góc cong.
-- Thùng ngăn kéo có mẫu lưu/chọn lại, chia tầng và cột, xà chặn và khoảng lùi xà, độ ăn đáy riêng với độ sâu dao. Nét định vị ray dùng chung hai bên, có cách mép dưới.
-- Suốt áo luôn tạo một lỗ mồi chính tâm mỗi bát. Lỗ dây LED nằm trên tâm rãnh và chọn riêng trái/phải; rãnh LED có mẫu, kích thước và mô phỏng ánh sáng.
-- Lưu mẫu tiếng Việt tương thích SketchUp 2023; giữ các chức năng báo cáo ray, suốt áo, bát treo và độ dài LED.
+## Cách dùng
 
-Cài file `TK_CABINET_1.99.213_MA_HOA_SK2023_2026.rbz`, lưu bản vẽ rồi đóng/mở lại SketchUp. Máy đã có TK CABINET có thể dùng mục cập nhật trong tiện ích.
+1. Trong TK chọn **Xuất ASPIRE**, rồi chọn thư mục lưu bộ DXF.
+2. Trong Aspire chọn **Gadgets → TK Nhap So Do**. Lần đầu nếu chưa thấy mục TK, đóng và mở lại Aspire một lần.
+3. Nếu có Job khác đang mở, lưu và đóng Job đó bằng lệnh Aspire trước khi nhập.
+4. Chọn nơi lưu/tên file rồi **Save** từng Job.
 
-`latest.json` có chữ ký xác minh bộ cập nhật. Chỉ gói RBZ đã mã hóa và bản kê cập nhật được phát hành; không bao gồm khóa riêng hay công cụ cấp phép.
+Aspire 9.5 gọi ván đầu là Default Sheet, tiếp theo Sheet 1, Sheet 2… Bảng TK và file `DANH_SACH_SHEET.html` trong thư mục xuất giúp đối chiếu số ván, màu và mặt TOP/BOTTOM.
 
-Đã kiểm tra Ruby 2.7/3.2, lưu/đọc hình học, mô phỏng và sinh NC. Với tấm thử dùng T2 Ø6: 175 lỗ lớn và biên ngoài vẫn cắt, 4 lỗ nhỏ bỏ qua. Chưa chạy cắt CNC thực tế. Mô phỏng sáng là hình hiển thị trong model. Khi cập nhật phải đóng hết SketchUp rồi mở lại để nạp đầy đủ mã mới.
+Bộ nhập được TK triển khai qua API Gadget công khai, không cần runtime Peo. Mở riêng từng DXF vẫn dùng được; khi mở riêng cần tự chọn mm và độ dày trong Job Setup.
 
-[Tải bộ cài TK CABINET 1.99.213 (.rbz)](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.213_MA_HOA_SK2023_2026.rbz)
+## Cập nhật
 
-## Cập nhật từ bản 1.99.203 trở lên
+Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**, hoặc cài [gói RBZ đã ký](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.214_MA_HOA_SK2023_2026.rbz) qua Extension Manager. Lưu bản vẽ và khởi động lại SketchUp sau khi cài.
 
-Kết nối Internet, lưu công việc và đóng cửa sổ Nesting. Vào **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Đồng ý để TK tự tải, kiểm tra và cài bản mới. Khi hoàn tất, đóng hết SketchUp rồi mở lại. Máy khách không cần tài khoản GitHub.
+Máy khách không cần tài khoản GitHub. Cần key còn hạn cho máy đang dùng; key, cài dao và Post đã lưu được giữ khi cập nhật. `latest.json` có chữ ký của nhà phát hành để TK xác minh gói tải về. Chỉ bộ cài đã ký/mã hóa, bản kê cập nhật và hướng dẫn được phát hành; không bao gồm khóa riêng hoặc công cụ cấp phép.
 
-## Cài lần đầu hoặc nâng cấp từ bản cũ
-
-1. Tải file `.rbz` ở trên, không giải nén.
-2. Lưu công việc trong SketchUp.
-3. Vào **Extensions → Extension Manager → Install Extension**, chọn file vừa tải.
-4. Đóng hết cửa sổ SketchUp rồi mở lại.
-
-Cần key còn hạn dành cho máy đang sử dụng. Key, cài dao và Post đã lưu được giữ khi cập nhật; không cần kích hoạt lại nếu key hiện tại còn hợp lệ.
-
-## Tệp phát hành
-
-- File `.rbz`: bộ cài được SketchUp Extension Warehouse ký và mã hóa các tệp Ruby bên trong.
-- `latest.json`: thông tin bản cập nhật có chữ ký của nhà phát hành, được TK đọc tự động. Người dùng không cần mở hoặc chỉnh sửa file này.
+Giữ các chức năng từ 1.99.213: nhận biên tấm cong, dùng chung dao cho lỗ trong và biên ngoài, bỏ lỗ quá nhỏ kèm cảnh báo; NC đi kèm sơ đồ và Excel vật tư. Chưa chạy cắt CNC thực tế.
 
 Phần mềm thuộc bản quyền của nhà phát hành. Kho này cung cấp các bộ cài, không cấp quyền sửa đổi hoặc phân phối lại mã nguồn.
