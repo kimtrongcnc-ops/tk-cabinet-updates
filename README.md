@@ -1,6 +1,14 @@
-# TK CABINET 1.99.214
+# TK CABINET 1.99.215
 
 Bộ cập nhật đã ký và mã hóa cho SketchUp 2023–2026.
+
+
+## Sửa cam chốt và mô phỏng
+
+- Sửa Chạy cam chốt bị dừng khi chọn cụm tủ dạng Component. Đã thử trên cụm tủ 17 mm: tạo 48 khóa cam và 48 chân cam, giữ nguyên hình học tấm.
+- Sửa mô phỏng tấm nhiều lỗ/biên cong dừng ở 7% do dựng bề mặt quá phức tạp. Đã kiểm tra 176 đường dao chạy tới 100%, tua lại và chạy tiếp; bốn lỗ không vừa dao vẫn báo và bỏ qua.
+- Giảm dữ liệu bề mặt mô phỏng; khi hạ dao, hình vật liệu dùng bước hiển thị tối đa 0,5 mm. Đường dao và mã NC không thay đổi.
+- Kiểm tra Ruby 2.7/3.2, Component/Group/model, mô phỏng và gói ký mã hóa đạt. Chưa chạy cắt CNC thực tế.
 
 ## Nhập toàn bộ sơ đồ vào Aspire
 
@@ -22,7 +30,7 @@ Bộ nhập được TK triển khai qua API Gadget công khai, không cần run
 
 ## Cập nhật
 
-Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**, hoặc cài [gói RBZ đã ký](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.214_MA_HOA_SK2023_2026.rbz) qua Extension Manager. Lưu bản vẽ và khởi động lại SketchUp sau khi cài.
+Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**, hoặc cài [gói RBZ đã ký](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.215_MA_HOA_SK2023_2026.rbz) qua Extension Manager. Lưu bản vẽ và khởi động lại SketchUp sau khi cài.
 
 Máy khách không cần tài khoản GitHub. Cần key còn hạn cho máy đang dùng; key, cài dao và Post đã lưu được giữ khi cập nhật. `latest.json` có chữ ký của nhà phát hành để TK xác minh gói tải về. Chỉ bộ cài đã ký/mã hóa, bản kê cập nhật và hướng dẫn được phát hành; không bao gồm khóa riêng hoặc công cụ cấp phép.
 
