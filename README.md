@@ -1,22 +1,23 @@
-# TK CABINET 1.99.269
+# TK CABINET 1.99.297
 
 Bộ cài đã ký và mã hóa cho SketchUp 2023–2026.
 
-## Cài đặt và cập nhật
+Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu bản vẽ rồi đóng và mở lại SketchUp sau khi cài.
 
-Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu bản vẽ, cài cập nhật rồi đóng và mở lại SketchUp. Cài lần đầu: tải [bộ cài RBZ 1.99.269](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.269_MA_HOA_SK2023_2026.rbz), chọn **Extension Manager → Install Extension**. Máy khách không cần tài khoản GitHub. Cần key còn hạn của máy đang dùng.
+[Tải bộ cài 1.99.297](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.297_MA_HOA_SK2023_2026.rbz)
 
-## Thay đổi
+## Cập nhật cụm bo và uốn cong
 
-- Xếp tấm mở sơ đồ hiện có; chỉ nút Tạo sơ đồ xếp tấm mới chạy xếp mới. Nesting bổ sung nằm bên phải.
-- Chống văng có nhóm Tự động, Thủ công, Thứ tự cắt riêng; công cụ xếp tấm không xuất hiện trong mục này.
-- Nút Load dao xuất NC. Chỉ layer đang tích ở sơ đồ được đưa sang danh sách gán dao; bỏ tích loại nguồn đó khỏi đường dao và yêu cầu tải lại đường dao. Giữ hồ sơ dao đã lưu.
-- Căn giữa giữ mép ngoài cánh, hỗ trợ cánh dài đã đúng và cánh ngắn cần chỉnh; hướng dẫn được rút gọn.
-- Thư viện màu bên trái, nhập thư viện ngoài, hút màu và tẩy màu; giữ thông tin nẹp khi tô hoặc tẩy màu.
-- Xóa tất cả xử lý nhóm tấm kèm đường phụ và liên kết cũ; giữ hình học mặt tấm. Không tự lấp các lỗ đã khoét thành hình học.
+- Tích hợp phần cụm bo, hai kiểu xương, mẫu xương, ngậm hồi/phủ hậu, xem trước, bo đợt và nóc vào bộ cài đầy đủ.
+- Tách khoang trên/dưới để chỉnh đợt; đổi chiều cao giữ vị trí ngang của cụm. Khi cao hết tủ, xử lý nóc/đáy/đợt và khôi phục hậu chung; sửa phần nóc thò ra phía sau.
+- Phôi uốn chỉ tạo nét trên layer riêng, giữ nguyên hình học tấm. Cài đặt Uốn cong TK dùng chung thông số và cách tính nét với phôi bo.
+- Đối chiếu bốn mẫu ZSU R40/50/60/80 ở góc 90 độ: chiều dài phôi và số nét khớp mẫu đo. Sửa thiếu nét R50; cung tham chiếu tính theo đoạn thực của mô hình.
+- Kế thừa toàn bộ bộ cài 1.99.296; không thay thế riêng các module tạo ván độc lập, cánh, nẹp và nesting.
 
 ## Kiểm tra và giới hạn
 
-Đã kiểm tra chuyển chế độ, lọc layer và thay đổi khóa kiểm tra đường dao khi bỏ tích. Với toàn bộ layer được tích, dữ liệu khai báo CNC giống bản 268 về hình học, dao, tốc độ, chiều sâu và số lượt. Đã kiểm tra cú pháp 138 tệp, chữ ký và nội dung gói; các kiểm tra nguồn căn giữa, màu/nẹp và xóa tấm đã chạy trong SketchUp 2026.
+157 tệp Ruby/JavaScript đã kiểm cú pháp. Gói mã hóa có 86 tệp RBE và chữ ký SketchUp; các tài nguyên không phải Ruby khớp gói chuẩn bị. Không kèm khóa riêng hoặc công cụ cấp key.
 
-Chưa chạy cắt CNC thực tế, chưa xác nhận thao tác đầy đủ trên mọi máy hoặc SketchUp 2023. Các kiểm tra giao diện cũ 187/198 có kỳ vọng không còn phù hợp; không được tính là đã đạt. Bản kê latest.json có chữ ký nhà phát hành. Không kèm khóa riêng hoặc công cụ cấp key.
+Đã chạy hai bài kiểm tra phím tạo ván và sáu bài kiểm tra native về khoang trên/dưới, đổi chiều cao/chế độ, tiếp giáp tấm, phôi kèm, tổ hợp khoang và khoang giật cấp. Sáu bài cũng đạt khi nạp phần tích hợp RBE vào SketchUp 2026 đang chạy; mọi hình học thử được hủy, không lưu vào bản vẽ. Đây chưa phải kiểm tra khởi động mới trên mọi máy.
+
+Đã kiểm tra tính toán góc/bán kính/hướng xoay, nhưng mẫu ZSU đối chiếu trực tiếp mới ở góc 90 độ. Bào nền có lớp lót/mô phỏng, khe xương và tham chiếu nhiều cung chưa được xác nhận tương đương ZSU. Chưa kiểm tra cắt CNC thực tế hoặc thao tác đầy đủ trên SketchUp 2023. Không coi mọi yêu cầu cũ trong hội thoại là đã được kiểm thử lại trong lần phát hành này.
