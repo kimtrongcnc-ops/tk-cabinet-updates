@@ -1,17 +1,16 @@
-# TK CABINET 1.99.300
+# TK CABINET 1.99.301
 
-Bộ cài đầy đủ đã ký và mã hóa chính thức, kế thừa 1.99.299. Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu bản vẽ, cập nhật rồi đóng và mở lại SketchUp.
+[Bộ cài mới nhất – tải tại đây](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.301_MA_HOA.rbz)
 
-[Tải bộ cài 1.99.300](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.300_MA_HOA.rbz)
+## Cập nhật
 
-- Sửa lỗi truyền tham số cam trên SketchUp 2023 / Ruby 2.7.
-- Cho phép chạy cam, rãnh hậu và khoan mồi trên nhiều vùng tủ; giữ gia công ngoài vùng chọn. Chạy lại thay nét cũ trong vùng, không nhân đôi.
-- Cam tự né mặt gỗ tiếp xúc che miệng cam khi bật tùy chọn tránh.
-- Rãnh hậu và khoan mồi tự động cô lập tấm nguồn phù hợp, chờ **Yes**, rồi khôi phục hiển thị và tạo gia công.
-- Giữ giới hạn độ dày theo cài đặt. Ví dụ tấm 15 mm không thuộc khoảng 16–19 mm: cần chỉnh khoảng phù hợp trong Cài đặt chung.
+Trong SketchUp: **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu công việc, cài bản mới rồi đóng và mở lại SketchUp. Không cần gỡ bản cũ; giữ key và các cài đặt đã lưu.
 
-Không khóa theo năm SketchUp. Mục tiêu tương thích 2021–2027; đã kiểm thử trực tiếp 2023 và 2026. Các bản 2021, 2022, 2024, 2025 và 2027 chưa được kiểm thử trực tiếp, không coi là đã chứng nhận tương thích.
+## Thay đổi
 
-Kiểm tra: tủ xoay 0°, 37°, 90° trên 2023; khởi động mới với bộ mã hóa 1.99.300 và chạy cam/rãnh/khoan mồi đạt. Trên 2026 đã kiểm tra giữ nét tủ cũ, chạy lại, xóa/tạo lại, đồng bộ nhiều vùng, cam né thanh chắn, và thao tác rãnh hậu trên tủ thực tế. Không lưu hình học thử vào bản vẽ của người dùng. Chưa xác nhận mọi biên dạng tấm và chưa thử CNC vật lý trong đợt này.
+- Gộp bản 1.99.300 và sửa nhận tiếp xúc cam/rãnh hậu/khoan mồi giữa các tấm trong vùng chọn, kể cả khác group.
+- Cô lập hậu bằng mặt đặc, phục hồi hiển thị/vùng chọn sau thao tác.
+- Lam sóng có nút **Tạo lam**: chọn mẫu, bấm tạo, rê xem trước rồi đặt.
+- Tạo lam trên tấm phẳng có mép cong/tròn và mặt trụ/cung tròn bán kính cố định, kể cả tấm xoay.
 
-Không thay đổi thuật toán Nesting, NC, tạo ván, cánh hoặc nẹp dán trong bản sửa này. Giữ nguyên bản quyền và cài đặt riêng từng máy.
+Bộ cài đã ký và mã hóa bằng hệ thống SketchUp. Chưa hỗ trợ lam trên mặt cong biến bán kính hoặc cong hai chiều. Chưa thử cắt CNC thực tế. Không khẳng định đã kiểm thử mọi phiên bản SketchUp 2021–2027.
