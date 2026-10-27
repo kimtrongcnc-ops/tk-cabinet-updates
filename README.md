@@ -1,20 +1,14 @@
-# TK CABINET 1.99.298
+# TK CABINET 1.99.299
 
-Bộ cài đầy đủ, đã ký và mã hóa cho SketchUp 2023–2026.
+Bộ cài đầy đủ, đã ký và mã hóa cho SketchUp 2023–2026, giữ các chức năng của bản 1.99.298.
 
-Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu bản vẽ rồi đóng và mở lại SketchUp sau khi cài.
+Trong SketchUp chọn **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu bản vẽ, cài cập nhật rồi đóng và mở lại SketchUp.
 
-[Tải bộ cài 1.99.298](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.298_MA_HOA_SK2023_2026.rbz)
+[Tải bộ cài 1.99.299](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.299_MA_HOA_SK2023_2026.rbz)
 
-TK CABINET 1.99.298
-Bản tổng hợp cập nhật từ 1.99.297 đến 27/10/2026.
-- Cài đặt chung: bố trí hai cột gọn, lưu thông số/mẫu; hợp nhất lối mở Đặt tên vào Đặt tên module.
-- Tạo ván, ngăn kéo, bo góc và uốn cong: bổ sung/sửa bảng nhanh, mẫu đã lưu, nhập số, nét gia công và nhận diện.
-- Uốn cong: mẫu xương dưỡng riêng, xem trước xoay/phóng, tùy chọn dùng mẫu; xương bám kích thước và độ dày tấm uốn. Mẫu xương hiện hỗ trợ các cấu trúc TK đã nhận dạng, không bảo đảm mọi khung ngoài hoặc mọi góc uốn.
-- Bo cong tủ module: tên Layer nét xẻ và đường bảo vệ được lưu cùng cấu hình, đưa theo tấm sang Nesting.
-- Khấu ván, khấu âm dương, tiết diện giao nhau, bản lề, dao tùy biến, Rãnh LED và liên kết: tích hợp các sửa đổi đã làm trong đợt 298.
-- Bảng nhanh đơn trên vùng vẽ chuyển bên phải; công cụ có hai bảng giữ trái/phải.
-- Nesting và báo cáo: tích hợp phần đọc Layer gia công và các sửa đổi trong đợt 298.
-Cài bản cập nhật rồi khởi động lại SketchUp. Giữ nguyên bản quyền và các cài đặt riêng trên từng máy; không sao chép cài đặt cá nhân từ máy chủ sang máy khác.
-Đã kiểm tra cú pháp, phụ thuộc bộ cài, bàn phím tạo ván, tổ hợp khoang và khoang giật cấp, nạp cập nhật, Layer uốn ở góc xoay 0/37/90. Chưa kiểm chứng cắt CNC thực tế với mọi loại bản vẽ hoặc mọi máy.
+- Sửa Ngăn kéo không nhận lòng khoang khi mép ván lùi hoặc không nối thành vòng kín. Giữ thao tác bấm một lần để tạo.
+- Sửa xem trước Bản lề làm thay đổi trạng thái ẩn của cánh và ảnh hưởng Ctrl+Z.
+- Đã thử tạo ngăn kéo trên tủ thực tế và khoang xoay 0°, 37°, 90°, 180°, có nét gia công không độ dày. Đã tạo bản lề rồi Undo, kiểm tra trả lại đúng hình học và ẩn/hiện.
+- Không thay đổi thuật toán Nesting, NC, tạo ván hoặc nẹp dán trong lần sửa này. Chưa thử cắt CNC thực tế trong đợt này.
 
+Giữ nguyên bản quyền và cài đặt riêng của từng máy.
