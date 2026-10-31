@@ -1,17 +1,13 @@
-# TK CABINET 1.99.308
+# TK CABINET 1.99.315
 
-[Tải bộ cài mới nhất](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.308_MA_HOA.rbz)
+[Tải bộ cài 1.99.315](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.315_MA_HOA.rbz)
 
-Trong SketchUp: **Extensions → TK CABINET → Kiểm tra bản cập nhật**. Lưu công việc, cài xong đóng và mở lại SketchUp. Giữ key và cài đặt hiện có.
+Trong SketchUp chọn **TK CABINET → Kiểm tra bản cập nhật**. Lưu công việc, cài xong đóng và mở lại SketchUp. Giữ key và cài đặt riêng từng máy.
 
-Bản này gom các sửa đổi đã thử trên máy chủ từ 303 đến 308:
+Bản này giữ nền 1.99.308 và tích hợp các phần sửa tiếp theo: trạng thái Layer/dao/Z và chặn load Layer bỏ tích; góc nhìn riêng tủ/tất cả tủ; xoay tấm; đim nhanh; sửa độ dày; tiết diện lam; thước đo; Render tại máy và icon Render AI, có chọn ảnh người/đồ vật tham chiếu.
 
-- Cánh tự động, chỉnh khe và chỉnh tủ lấy từ ngoài.
-- Ngăn kéo, lam, tiết diện giao nhau và phạm vi cam/chốt.
-- Bản vẽ lắp ráp, phân loại tấm và bố trí số chỉ dẫn.
-- Cắt nhanh, co giãn giữ khe ray và độ dày, làm mịn.
-- Nesting giữ chi tiết trong lỗ khoét cùng tấm; hoàn tất các lượt tại từng đường, gia công bên trong trước đường bao ngoài; báo trạng thái dao và Z còn lại.
+Đã chạy kiểm tra bàn phím tạo ván, khoang kết hợp/giật cấp, cắt nhanh, co giãn giữ khe ray, làm mịn; kiểm tra scene, đim, sửa độ dày tủ xoay và thước đo trong SketchUp 2026. Các bài thử hình học tạm được hủy, không lưu vào tủ. Mã Ruby/JavaScript và nội dung gói ký được kiểm tra. Chưa chứng nhận mọi thao tác trên mọi phiên bản SketchUp hoặc cắt CNC thực tế.
 
-Đã chạy kiểm thử hồi quy mã nguồn và hình học tạm trên SketchUp 2026: khoang kết hợp, khoang giật cấp, cắt ở nhiều góc xoay, co giãn giữ khe ray 13 mm, làm mịn, bản vẽ, ngăn kéo và nesting. Chưa kiểm thử toàn bộ thao tác trên mọi phiên bản SketchUp hoặc cắt CNC thực tế.
+**Render AI là chức năng thử nghiệm tùy chọn:** bộ RBZ không chứa mô hình AI, Python, Ollama hoặc Blender. Mỗi máy cần bộ xử lý riêng; máy chưa cài sẽ báo thiếu bộ AI. Đã thử trên RTX 3060 12 GB, ảnh 640 × 384 khoảng 29 giây. Không gửi ảnh lên dịch vụ ngoài và không dùng API trả phí; vẫn cần tài nguyên CPU/GPU tại máy. AI có thể làm sai chi tiết ảnh, không thay đổi mô hình SketchUp. Không dùng ảnh AI làm bản vẽ gia công.
 
-Bộ cấp key dùng thử 5 ngày là công cụ quản trị riêng, không phát hành trong bộ cài khách hàng.
+Giữ bộ 1.99.308 để quay lại khi cần. Các công cụ cấp key và khóa riêng không nằm trong bộ cài khách hàng.
