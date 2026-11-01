@@ -1,13 +1,15 @@
-# TK CABINET 1.99.315
+# TK CABINET 1.99.316
 
-[Tải bộ cài 1.99.315](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.315_MA_HOA.rbz)
+Bản cập nhật tổng hợp nền 1.99.315 và các sửa đổi cục bộ ngày 01/11/2026. Bộ cài đã ký và mã hóa bằng dịch vụ SketchUp Extension Warehouse.
 
-Trong SketchUp chọn **TK CABINET → Kiểm tra bản cập nhật**. Lưu công việc, cài xong đóng và mở lại SketchUp. Giữ key và cài đặt riêng từng máy.
+- Tích hợp các bản sửa nạp riêng vào bộ cài; cập nhật điều kiện phiên bản để các công cụ tiếp tục được nạp khi khởi động lại.
+- Báo cáo cánh kính/cánh vát: tên theo nhãn và vị trí, bố cục, ghi chú, nhận diện dấu tay nắm; chọn tên để tìm cánh trong mô hình.
+- Bổ sung các sửa bản lề, khoan mồi hồi, suốt áo, xóa liên kết, gắn nhãn và cắt nhanh tấm có chú thích.
+- Xếp tấm: vùng Layer vượt mép, lề theo cài đặt, bố trí ván dư; điều khiển lưu dao và xuất/nhập thiết lập.
+- In dùng hộp thoại Windows, hỗ trợ thiết lập khổ giấy và hướng trang.
 
-Bản này giữ nền 1.99.308 và tích hợp các phần sửa tiếp theo: trạng thái Layer/dao/Z và chặn load Layer bỏ tích; góc nhìn riêng tủ/tất cả tủ; xoay tấm; đim nhanh; sửa độ dày; tiết diện lam; thước đo; Render tại máy và icon Render AI, có chọn ảnh người/đồ vật tham chiếu.
+Lưu bản vẽ rồi đóng và mở lại SketchUp sau khi cập nhật. Không cần xóa cài đặt hoặc mẫu đang dùng.
 
-Đã chạy kiểm tra bàn phím tạo ván, khoang kết hợp/giật cấp, cắt nhanh, co giãn giữ khe ray, làm mịn; kiểm tra scene, đim, sửa độ dày tủ xoay và thước đo trong SketchUp 2026. Các bài thử hình học tạm được hủy, không lưu vào tủ. Mã Ruby/JavaScript và nội dung gói ký được kiểm tra. Chưa chứng nhận mọi thao tác trên mọi phiên bản SketchUp hoặc cắt CNC thực tế.
+Các kiểm tra tự động và hình học tạm được ghi riêng trong hồ sơ kiểm thử. Không coi kiểm thử tự động là chứng nhận mọi thao tác trên mọi máy; chưa kiểm tra cắt CNC vật lý. AI/render là tính năng tùy chọn, cần bộ xử lý riêng, bộ cài không kèm mô hình AI hoặc Blender.
 
-**Render AI là chức năng thử nghiệm tùy chọn:** bộ RBZ không chứa mô hình AI, Python, Ollama hoặc Blender. Mỗi máy cần bộ xử lý riêng; máy chưa cài sẽ báo thiếu bộ AI. Đã thử trên RTX 3060 12 GB, ảnh 640 × 384 khoảng 29 giây. Không gửi ảnh lên dịch vụ ngoài và không dùng API trả phí; vẫn cần tài nguyên CPU/GPU tại máy. AI có thể làm sai chi tiết ảnh, không thay đổi mô hình SketchUp. Không dùng ảnh AI làm bản vẽ gia công.
-
-Giữ bộ 1.99.308 để quay lại khi cần. Các công cụ cấp key và khóa riêng không nằm trong bộ cài khách hàng.
+[Tải bộ cài 1.99.316](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/raw/refs/heads/main/TK_CABINET_1.99.316_MA_HOA.rbz)
