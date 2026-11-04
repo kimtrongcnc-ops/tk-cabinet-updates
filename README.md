@@ -1,15 +1,10 @@
-# TK CABINET 1.99.316
+# TK CABINET 1.99.317
 
-Bản cập nhật tổng hợp nền 1.99.315 và các sửa đổi cục bộ ngày 01/11/2026. Bộ cài đã ký và mã hóa bằng dịch vụ SketchUp Extension Warehouse.
+[Tải bộ cài 1.99.317 đã ký](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.317_MA_HOA.rbz)
 
-- Tích hợp các bản sửa nạp riêng vào bộ cài; cập nhật điều kiện phiên bản để các công cụ tiếp tục được nạp khi khởi động lại.
-- Báo cáo cánh kính/cánh vát: tên theo nhãn và vị trí, bố cục, ghi chú, nhận diện dấu tay nắm; chọn tên để tìm cánh trong mô hình.
-- Bổ sung các sửa bản lề, khoan mồi hồi, suốt áo, xóa liên kết, gắn nhãn và cắt nhanh tấm có chú thích.
-- Xếp tấm: vùng Layer vượt mép, lề theo cài đặt, bố trí ván dư; điều khiển lưu dao và xuất/nhập thiết lập.
-- In dùng hộp thoại Windows, hỗ trợ thiết lập khổ giấy và hướng trang.
+| Máy | Cách cài | Kiểm tra |
+| --- | --- | --- |
+| Máy mới | Tải tệp RBZ, mở SketchUp → Extension Manager → Install Extension và chọn tệp vừa tải. | Mở lại SketchUp và kiểm tra TK CABINET 1.99.317. |
+| Máy đã có TK | Lưu bản vẽ. Dùng Kiểm tra bản cập nhật để tải bộ cài, cài tệp RBZ và mở lại SketchUp. | Tạo sơ đồ xếp tấm mới để thử. |
 
-Lưu bản vẽ rồi đóng và mở lại SketchUp sau khi cập nhật. Không cần xóa cài đặt hoặc mẫu đang dùng.
-
-Các kiểm tra tự động và hình học tạm được ghi riêng trong hồ sơ kiểm thử. Không coi kiểm thử tự động là chứng nhận mọi thao tác trên mọi máy; chưa kiểm tra cắt CNC vật lý. AI/render là tính năng tùy chọn, cần bộ xử lý riêng, bộ cài không kèm mô hình AI hoặc Blender.
-
-[Tải bộ cài 1.99.316](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/raw/refs/heads/main/TK_CABINET_1.99.316_MA_HOA.rbz)
+Bản này gồm các sửa cam chốt, xóa liên kết, đổ màu tủ, rãnh LED, bo góc, Phá khối, Render và Cài đặt chung. Với tấm có lỗ khóa cam và rãnh LED ở hai mặt đối diện, chế độ xếp tự động ưu tiên cam ở mặt lật và LED ở mặt đường cắt. Bộ xử lý AI tùy chọn cài riêng trên từng máy.
