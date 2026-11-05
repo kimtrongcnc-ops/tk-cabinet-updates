@@ -1,10 +1,16 @@
-# TK CABINET 1.99.317
+# TK CABINET 1.99.319
 
-[Tải bộ cài 1.99.317 đã ký](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.317_MA_HOA.rbz)
+[Tải bộ cài TK CABINET 1.99.319 đã ký và mã hóa](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.319_MA_HOA.rbz)
 
-| Máy | Cách cài | Kiểm tra |
-| --- | --- | --- |
-| Máy mới | Tải tệp RBZ, mở SketchUp → Extension Manager → Install Extension và chọn tệp vừa tải. | Mở lại SketchUp và kiểm tra TK CABINET 1.99.317. |
-| Máy đã có TK | Lưu bản vẽ. Dùng Kiểm tra bản cập nhật để tải bộ cài, cài tệp RBZ và mở lại SketchUp. | Tạo sơ đồ xếp tấm mới để thử. |
+Máy đã có TK CABINET vào **Cài đặt chung → Kiểm tra bản cập nhật**. Cài xong, lưu bản vẽ rồi đóng và mở lại SketchUp.
 
-Bản này gồm các sửa cam chốt, xóa liên kết, đổ màu tủ, rãnh LED, bo góc, Phá khối, Render và Cài đặt chung. Với tấm có lỗ khóa cam và rãnh LED ở hai mặt đối diện, chế độ xếp tự động ưu tiên cam ở mặt lật và LED ở mặt đường cắt. Bộ xử lý AI tùy chọn cài riêng trên từng máy.
+Máy mới vào **Extension Manager → Install Extension**, chọn tệp RBZ đã tải rồi mở lại SketchUp.
+
+Bản này gộp các thay đổi của 1.99.318 và 1.99.319 trong ngày 05/11/2026.
+
+- Cam, di chuyển và xóa cam, rãnh hậu, khoan mồi hậu và nhận diện các tấm tiếp giáp.
+- Tạo cánh, lam trên vách cong, tiết diện giao nhau, thước đo, xoay vân, ẩn/xóa tấm, biểu tượng báo cáo và Xem 3D qua điện thoại.
+- Cắt nhiều điểm, lùi thùng ngăn kéo, nhận khoang, di chuyển tấm cùng phụ kiện và nhãn, gắn nhãn theo khoang và tầng, sắp xếp thư viện màu, tìm tấm trùng và quá khổ.
+- Nesting theo biên dạng, lồng tấm vào lỗ kính, ghép tấm chéo và dồn chi tiết về góc dưới trái. Nhãn cùng đường gia công đi theo tấm. Tem in cùng hướng đầu trên.
+
+Đã thử bộ cài mã hóa trên SketchUp 2023 và 2026.
