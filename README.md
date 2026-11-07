@@ -1,16 +1,15 @@
-# TK CABINET 1.99.319
+# TK CABINET 1.99.341
 
-[Tải bộ cài TK CABINET 1.99.319 đã ký và mã hóa](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.319_MA_HOA.rbz)
+[Tải bộ cài TK CABINET 1.99.341 đã ký và mã hóa](https://raw.githubusercontent.com/kimtrongcnc-ops/tk-cabinet-updates/main/TK_CABINET_1.99.341_MA_HOA.rbz)
 
-Máy đã có TK CABINET vào **Cài đặt chung → Kiểm tra bản cập nhật**. Cài xong, lưu bản vẽ rồi đóng và mở lại SketchUp.
+Máy đang dùng TK CABINET mở **Cài đặt chung → Kiểm tra bản cập nhật**. Sau khi cài, lưu bản vẽ rồi đóng và mở lại SketchUp. Trên máy mới, chọn **Extension Manager → Install Extension**, mở tệp RBZ rồi khởi động lại SketchUp.
 
-Máy mới vào **Extension Manager → Install Extension**, chọn tệp RBZ đã tải rồi mở lại SketchUp.
+Bản ngày 07/11/2026 gom các thay đổi sau bản 1.99.319.
 
-Bản này gộp các thay đổi của 1.99.318 và 1.99.319 trong ngày 05/11/2026.
+- Thư viện CNC có 440 mẫu trong bảy mục. Cánh huỳnh có bảng thông số theo mẫu, Layer gia công và hình 3D.
+- Xếp tấm nhận cánh kính, phần khoét và chỗ trống theo biên dạng. Trong danh sách Layer, nút **Nhân bản** nằm ngay sau nút xóa.
+- CNC có dao **Vbit 90°** để rút nhọn góc và phần sửa đường bao chống văng.
+- Mộng xương chó, khoan mồi theo mẫu, hướng cam và bảng công cụ di chuyển được.
+- Di chuyển hồi hoặc đợt có tính đến hậu, cam, chân cam và khấu liên kết. Tạo và chỉnh mô-đun tủ dùng chung một mục.
+- **Xem 3D qua điện thoại** được tích hợp trong bộ cài TK CABINET.
 
-- Cam, di chuyển và xóa cam, rãnh hậu, khoan mồi hậu và nhận diện các tấm tiếp giáp.
-- Tạo cánh, lam trên vách cong, tiết diện giao nhau, thước đo, xoay vân, ẩn/xóa tấm, biểu tượng báo cáo và Xem 3D qua điện thoại.
-- Cắt nhiều điểm, lùi thùng ngăn kéo, nhận khoang, di chuyển tấm cùng phụ kiện và nhãn, gắn nhãn theo khoang và tầng, sắp xếp thư viện màu, tìm tấm trùng và quá khổ.
-- Nesting theo biên dạng, lồng tấm vào lỗ kính, ghép tấm chéo và dồn chi tiết về góc dưới trái. Nhãn cùng đường gia công đi theo tấm. Tem in cùng hướng đầu trên.
-
-Đã thử bộ cài mã hóa trên SketchUp 2023 và 2026.
