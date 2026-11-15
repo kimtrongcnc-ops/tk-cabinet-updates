@@ -1,12 +1,17 @@
-# TK CABINET 1.99.472
+# TK CABINET 1.99.518
 
-[Tải bộ cài TK CABINET 1.99.472 đã ký và mã hóa](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.472/TK_CABINET_1.99.472_MA_HOA.rbz)
+[Tải bộ cài đầy đủ TK CABINET 1.99.518 đã ký và mã hóa](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.518/TK_CABINET_1.99.518_MA_HOA.rbz)
 
-Máy đang dùng TK CABINET: mở **Cài đặt chung → Kiểm tra bản cập nhật**. Máy mới: mở **Extension Manager → Install Extension** rồi chọn bộ cài ở trên. Sau khi cài, lưu bản vẽ và mở lại SketchUp.
+Bộ đầy đủ gồm toàn bộ các công cụ và sửa đổi TK từ 473 đến 518 đang dùng trên máy gốc, gồm CNC, xếp tấm, in tem, đánh dấu và báo giá.
 
-Bản này gồm các thay đổi từ 1.99.469 đến 1.99.472:
+- In tem tấm con theo bảng xếp tấm: từ dày đến mỏng, theo màu và từ tấm 1 đến hết.
+- Giảm giá theo phần trăm khi xuất báo giá.
+- Chỉ giữa mặt để đánh dấu mặt ngăn kéo; chỉ cạnh để đánh bản lề, kể cả mặt nhỏ.
+- Tám nhóm công cụ TK, không tạo các mục trùng.
+- Thay nguyên bộ TK cũ khi khởi động lại; tự vô hiệu hóa các bộ nạp và bộ cập nhật cũ, giữ key và cài đặt riêng của từng máy.
 
-- Ổn định thanh công cụ sau khi áp dụng bố cục tùy chỉnh.
-- Gắn hoặc xóa nhãn toàn mô hình khi bấm lệnh; xoay và đảo nhãn vẫn theo từng tấm.
-- Khi hai mặt đều có gia công, ưu tiên gắn nhãn trên mặt có layer gia công khác cam.
-- Đánh số khoang từ trái sang phải và đánh số đợt riêng trong từng khoang. Giữ tên tủ đã đặt và giữ mã tấm khi đổi tên hoặc gắn lại nhãn.
+**Máy đang dùng TK:** mở **Cài đặt chung → Kiểm tra bản cập nhật**. Chờ thông báo **Đã tải và kiểm tra TK CABINET 1.99.518**, lưu bản vẽ, đóng hết SketchUp rồi mở lại. Gói tải đầu tiên nhỏ hơn 20 MB để tương thích trình cập nhật cũ; gói này tải tiếp bộ đầy đủ đã ký.
+
+**Máy mới hoặc không truy cập được kênh cập nhật:** tải bộ RBZ đầy đủ ở trên, mở **Extension Manager → Install Extension**, chọn bộ cài rồi mở lại SketchUp.
+
+Đã kiểm tra cập nhật trên SketchUp 2023 và 2026: 1.718 tệp khớp bộ đã ký, một phiên bản TK hoạt động và tám nhóm công cụ theo bố trí đã lưu. Bản cũ được sao lưu ngoài thư mục Plugins trước khi thay thế.
