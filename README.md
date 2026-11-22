@@ -1,29 +1,30 @@
-# TK CABINET 1.99.574
+# TK CABINET 1.99.582
 
-**Sửa bộ cập nhật B — 21/11/2026:** tải và kiểm tra gói ở tiến trình riêng ẩn, có tiến độ; tự thử lại và tải tiếp khi gián đoạn, dùng lại tệp đã tải đủ. Giữ kiểm tra chữ ký/SHA-256 trước khi cài. Bộ chương trình đầy đủ vẫn là 1.99.574, giữ toàn bộ sửa đổi dưới đây.
+Bản đầy đủ gộp nền 574 và các sửa đổi 576–582 đã hoàn thành trên bộ nguồn gốc.
 
-TK CABINET 1.99.574 gộp toàn bộ bộ chương trình trước đó và các sửa đổi đến bản 574.
+- Sửa lỗi cập nhật lặp lại sau khi đóng/mở SketchUp do bộ 544 nạp chương trình trước bộ 574.
+- Bút tấm nhận số và Enter trên SketchUp 2023, gồm bàn phím số phụ.
+- PDF lắp ráp/gửi khách: chỉnh trực tiếp, mặt cắt theo khoang, xoay từng phối cảnh, có cánh/bỏ cánh, màu và vật liệu, khung tên; giữ quy tắc số tấm.
+- Các sửa làm mịn, xem mô hình trên điện thoại và thư viện CNC gồm 9.370 hoa văn mới đã tách, phân loại, giữ tỉ lệ.
+- Giữ các sửa nhãn, layer, CAM, nesting, mô phỏng và công cụ của nền 574.
 
-- Gắn nhãn: tăng tốc nhưng giữ nhận diện khoang, vị trí, tên và thứ tự tấm; giữ quy tắc chọn mặt theo layer, ưu tiên mặt có rãnh khi đối chiếu hai mặt. Khi tạo/sửa gia công bằng công cụ TK, nhãn đã gắn được cập nhật theo lệnh, không theo dõi nền mô hình.
-- Cài đặt: chuyển cài đặt chung và nesting giữa máy/phiên bản, kèm biên dạng mẫu tự vẽ; giữ cài đặt riêng và key của máy nhận.
-- CAM và xuất NC: sửa các trường hợp dán nẹp/layer chặn xuất, đường bào lòng chạy liên tục theo chiều đã chọn và mô phỏng trên SketchUp cũ.
-- Nesting: tăng tốc xếp; tận dụng các lỗ thủng, lòng khung kính và ô khuyết hợp lệ; hiển thị đường layer viền lòng mảnh; sửa nền vàng lóe khi mở.
-- Công cụ: Xóa tất cả nhận diện thêm gia công của bên khác; tạo cánh theo hướng bắt điểm, nháy đúp Enter hoặc phím cách để hoàn tất.
-- PDF: bổ sung mặt cắt theo bố trí khoang, gộp khoang giống nhau; giữ quy tắc cũ của số tấm, vòng tròn, đường dẫn, hướng chữ và vị trí trên trang chính.
+## Cập nhật
 
-Máy đang dùng TK: Cài đặt chung → Kiểm tra bản cập nhật. Lưu bản vẽ, chờ tải bộ đầy đủ, đóng hết cửa sổ SketchUp cùng phiên bản rồi mở lại. Nếu lần mở lại đầu tiên còn thông báo đang tải, chờ tải hoàn tất rồi mở lại thêm lần nữa.
+Trong TK: **Cài đặt chung → Kiểm tra bản cập nhật**. Đợi tải, kiểm tra và chuẩn bị xong, lưu bản vẽ, đóng hết SketchUp cùng phiên bản rồi mở lại. Key và cài đặt riêng được giữ nguyên.
 
-Bộ CAP_NHAT_B.rbz dùng cho cập nhật máy đã có TK và tự tải bộ đầy đủ. Bộ MA_HOA.rbz là bộ cài đầy đủ đã ký/mã hóa. Mã nguồn chỉnh sửa được giữ riêng tại máy phát triển, không nằm trong gói công khai.
+Nếu bị mắc bộ cập nhật cũ, tải [bộ cập nhật 1.99.582](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.582/TK_CABINET_1.99.582_CAP_NHAT.rbz) và cài qua **Extension Manager**. Bộ này tự tải cả chương trình và thư viện CNC (khoảng 1,1 GB), có tải tiếp khi gián đoạn. Bước chuẩn bị thư viện có thể mất vài phút.
 
-## Tải bộ cài
+[Chi tiết bản phát hành và các tệp](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/tag/v1.99.582).
 
-- [Bộ cài đầy đủ 1.99.574](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.574/TK_CABINET_1.99.574_MA_HOA.rbz)
-- [Bộ cập nhật 1.99.574](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.574/TK_CABINET_1.99.574_CAP_NHAT_B.rbz)
+`DAY_DU.zip` là dữ liệu dành cho bộ cập nhật; không cài trực tiếp ZIP bằng Extension Manager.
 
-Chọn đúng hai tệp trên. Bộ CAP_NHAT cũ và các tệp có `KIEM_TRA_1` chỉ lưu đối chiếu, không dùng để cài.
+## Kiểm tra
 
-Máy đã lên đủ 1.99.574 không cần cài lại. Máy cũ còn lỗi cập nhật: kiểm tra cập nhật lại; nếu vẫn mắc bộ tải cũ, cài bộ CAP_NHAT_B bằng Extension Manager, lưu bản vẽ và mở lại SketchUp. Chờ thông báo “Đã tải và kiểm tra xong”, rồi đóng hết SketchUp cùng phiên bản và mở lại để hoàn tất.
+Đã đối chiếu nguồn, kiểm tra cú pháp Ruby 2.7/3.2 và JavaScript, hồi quy, chữ ký, SHA-256, tải tiếp, chuẩn bị toàn bộ thư viện và phục hồi khi cài lỗi. Bút tấm 581A đã thử trực tiếp trên máy khách SketchUp 2023. Bản 582 chưa cài lên máy khách đang được kiểm tra lỗi cập nhật theo yêu cầu chủ máy; chưa chạy cắt CNC vật lý.
 
-Đã kiểm tra bản đầy đủ trên máy khách SketchUp 2023 và cập nhật từ 1.99.549 trên máy SketchUp 2026: đủ 44 phần sửa, 1.892 tệp khớp gói ký, cài đặt và thanh công cụ giữ nguyên. Bộ tải B đã thử tải thật, tải tiếp sau gián đoạn, tệp lỗi và mất mạng.
+| Tệp | Dung lượng (byte) | SHA-256 |
+|---|---:|---|
+| TK_CABINET_1.99.582_CAP_NHAT.rbz | 24269 | a775efb03d9b5c855da97468cb859fffa02582a407f45f91c7e88db88fdbe689 |
+| TK_CABINET_1.99.582_DAY_DU.zip | 1111444661 | 19f25ecb21201486e9d2290571b6648c10fd8eaa27621e0f93dcea737472813d |
 
-Kênh cập nhật dùng manifest có chữ ký và kiểm tra SHA-256 của gói tải về. Bộ cài đầy đủ được ký bằng SketchUp Extension Warehouse.
+`latest.json` được ký bằng khóa phát hành hiện có. Khóa riêng không nằm trong kho này.
