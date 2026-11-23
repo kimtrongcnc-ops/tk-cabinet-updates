@@ -1,21 +1,20 @@
-# TK CABINET 1.99.584
+# TK CABINET 1.99.594 — bộ cập nhật đầy đủ cho SketchUp 2023–2026
 
-Bộ cập nhật đầy đủ, nâng cấp trực tiếp từ bản cũ; không cần cài thành công 582 trước.
+[Tải bộ cập nhật 1.99.594](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.594/TK_CABINET_1.99.594_CAP_NHAT_DAY_DU.rbz) · [Bộ cài đặt gốc](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.594/TK_CABINET_1.99.594_CAI_DAT_GOC.json) · [Tất cả tệp phát hành](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/tag/v1.99.594)
 
-- Sửa PDF trên SketchUp 2023, giữ quy tắc số tấm và kích thước.
-- Bổ sung tương thích lưu cài đặt và xử lý hoa văn CNC trên 2023.
-- Hiện mẫu khi bật công cụ; làm mới danh sách sau khi lưu mẫu.
-- Giữ các sửa nhãn, layer, nhận diện khoang/vị trí, CAM, nesting, mô phỏng, Bút tấm, PDF và toàn bộ thư viện CNC đã gộp trước đó.
-- Giữ bộ tải tiếp và bộ nạp sớm đã sửa lỗi cập nhật bị kẹt khi mở lại.
+Tải **TK_CABINET_1.99.594_CAP_NHAT_DAY_DU.rbz**, cài bằng Extension Manager. Hoặc vào TK → Cài đặt chung → Kiểm tra bản cập nhật. Máy bị kẹt bộ tải cũ có thể cài RBZ này trực tiếp.
 
-Trong TK: **Cài đặt chung → Kiểm tra bản cập nhật**.
+- Gộp đầy đủ các sửa từ 585 đến 593 cùng toàn bộ chức năng và thư viện CNC của bộ 584.
+- Bút tấm bắt góc, cạnh, trung điểm và mặt; giữ nhập kích thước bằng số trên 2023.
+- Nhãn giữ thứ tự theo khoang và vị trí; nhận tấm ẩn, khóa, ngoài màn hình; giữ nhãn đã đúng. Sửa xoay mũi tên trên tấm sao chép.
+- Nesting lấy chiều vân theo mũi tên nhãn. Chỉ bỏ CAM nằm hoàn toàn trong phần lòng đã khoét của chính tấm đó; giữ CAM trên khung và tấm khác.
+- Bào nền cho bước ngang đến 80% đường kính dao, có kiểu từ trong ra ngoài/từ ngoài vào trong. Ziczac quét ngang/dọc rồi chạy vòng sửa sát thành; giữ mục Hướng và không trừ nẹp ở đường không có nẹp. Thu gọn bảng thông số.
+- Giữ các sửa PDF, màu/vân/nẹp, phối cảnh có cánh/bỏ cánh, xoay một lần bấm, chỉnh trực tiếp, kích thước và mẫu cài đặt trên 2023.
+- Lấy bộ máy gốc làm mặc định: 129 thông số, 43 nhóm công cụ, 42 mẫu công cụ, 4 mẫu chung và 2 postprocessor. Mặc định áp dụng khi chưa có giá trị; thông số riêng và key của máy đã dùng được giữ. File CAI_DAT_GOC.json cho phép chủ động nhập toàn bộ cấu hình gốc.
+- Giữ bộ tải tiếp khi đứt mạng, kiểm tra toàn vẹn, chuẩn bị thư viện và nạp sớm sau khi mở lại. Nâng cấp thẳng từ bản cũ, không cần cài từng bản trung gian.
 
-Máy đang kẹt bộ tải cũ có thể tải [bộ cập nhật đầy đủ 1.99.584](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.584/TK_CABINET_1.99.584_CAP_NHAT_DAY_DU.rbz) rồi cài qua Extension Manager. Nếu TK đang chạy bản cũ, lưu bản vẽ, đóng hết SketchUp cùng phiên bản rồi mở lại để nạp bộ tải mới. Đợi tải và chuẩn bị xong, đóng/mở lại để cài chương trình. Key và cài đặt cá nhân được giữ nguyên.
+Lưu bản vẽ và đóng hết SketchUp cùng phiên bản khi bộ tải yêu cầu mở lại. Nếu đang dùng bộ tải cũ, lần mở lại đầu tiên nạp bộ tải mới; sau khi tải/chuẩn bị xong, mở lại để cài chương trình. Gói đầy đủ khoảng 1,11 GB. Không cài DAY_DU.zip trực tiếp bằng Extension Manager.
 
-Bộ nạp RBZ nhỏ tải gói đầy đủ khoảng 1,11 GB; không phải bản vá phụ thuộc vào 582. Có tải tiếp khi gián đoạn. Tệp DAY_DU.zip dành cho bộ cập nhật xử lý, không cài ZIP trực tiếp qua Extension Manager.
+Đã kiểm tra trực tiếp trên ADMIN-PC, SketchUp 23.0.367/Ruby 2.7.2: sáu nhóm thử nhãn, nhập số/bắt mép, xoay/vân, lọc CAM; nesting đủ tám tấm; tám kiểm tra giao diện CNC và mười kiểm tra PDF. Mở lại đã nạp đủ các mô-đun sửa. Bộ mặc định đã qua xác thực và 139 kiểm tra giá trị/giữ cấu hình riêng. Chưa chạy cắt trên máy CNC vật lý.
 
-[Bản phát hành và các tệp](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/tag/v1.99.584).
-
-Đã thử PDF hai chế độ và hiển thị mẫu Tạo ván trên ADMIN-PC chạy SketchUp 2023 bằng mã tạm trong bộ nhớ. Đã kiểm tra ngữ pháp Ruby 2.7, JavaScript thiếu API đời mới, nhãn/CNC/nesting, nhập số Bút tấm, bộ nạp từ bản cũ, sao lưu/khôi phục và lệnh tải ẩn trên Windows PowerShell mặc định. Chưa cài toàn bộ gói lên tất cả máy khách và chưa chạy cắt CNC vật lý.
-
-Mã Ruby phát hành được ký/mã hóa chính thức. Nguồn đọc được giữ riêng trên máy chủ sở hữu; khóa riêng không nằm trong kho này.
+Mã Ruby bên trong được ký và mã hóa chính thức. Nguồn đọc được lưu riêng trên máy gốc; không đưa mã kích hoạt, khóa riêng hoặc đường dẫn cá nhân vào bộ mặc định.
