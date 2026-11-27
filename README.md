@@ -1,20 +1,29 @@
-# TK CABINET 1.99.594 — bộ cập nhật đầy đủ cho SketchUp 2023–2026
+# TK CABINET 1.99.620
 
-[Tải bộ cập nhật 1.99.594](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.594/TK_CABINET_1.99.594_CAP_NHAT_DAY_DU.rbz) · [Bộ cài đặt gốc](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.594/TK_CABINET_1.99.594_CAI_DAT_GOC.json) · [Tất cả tệp phát hành](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/tag/v1.99.594)
+[Tải bộ cập nhật đã mã hóa](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.620/TK_CABINET_1.99.620_CAP_NHAT.rbz) · [Tất cả bộ cài](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/tag/v1.99.620)
 
-Tải **TK_CABINET_1.99.594_CAP_NHAT_DAY_DU.rbz**, cài bằng Extension Manager. Hoặc vào TK → Cài đặt chung → Kiểm tra bản cập nhật. Máy bị kẹt bộ tải cũ có thể cài RBZ này trực tiếp.
+Bản 1.99.620 tổng hợp sửa đổi 595–619 và sửa tương thích khi khởi động SketchUp 2023. Giữ các thiết lập và key hiện có. Mã Ruby bên trong chương trình và bộ cập nhật đã được mã hóa, ký bằng dịch vụ chính thức của SketchUp.
 
-- Gộp đầy đủ các sửa từ 585 đến 593 cùng toàn bộ chức năng và thư viện CNC của bộ 584.
-- Bút tấm bắt góc, cạnh, trung điểm và mặt; giữ nhập kích thước bằng số trên 2023.
-- Nhãn giữ thứ tự theo khoang và vị trí; nhận tấm ẩn, khóa, ngoài màn hình; giữ nhãn đã đúng. Sửa xoay mũi tên trên tấm sao chép.
-- Nesting lấy chiều vân theo mũi tên nhãn. Chỉ bỏ CAM nằm hoàn toàn trong phần lòng đã khoét của chính tấm đó; giữ CAM trên khung và tấm khác.
-- Bào nền cho bước ngang đến 80% đường kính dao, có kiểu từ trong ra ngoài/từ ngoài vào trong. Ziczac quét ngang/dọc rồi chạy vòng sửa sát thành; giữ mục Hướng và không trừ nẹp ở đường không có nẹp. Thu gọn bảng thông số.
-- Giữ các sửa PDF, màu/vân/nẹp, phối cảnh có cánh/bỏ cánh, xoay một lần bấm, chỉnh trực tiếp, kích thước và mẫu cài đặt trên 2023.
-- Lấy bộ máy gốc làm mặc định: 129 thông số, 43 nhóm công cụ, 42 mẫu công cụ, 4 mẫu chung và 2 postprocessor. Mặc định áp dụng khi chưa có giá trị; thông số riêng và key của máy đã dùng được giữ. File CAI_DAT_GOC.json cho phép chủ động nhập toàn bộ cấu hình gốc.
-- Giữ bộ tải tiếp khi đứt mạng, kiểm tra toàn vẹn, chuẩn bị thư viện và nạp sớm sau khi mở lại. Nâng cấp thẳng từ bản cũ, không cần cài từng bản trung gian.
+## Cập nhật
 
-Lưu bản vẽ và đóng hết SketchUp cùng phiên bản khi bộ tải yêu cầu mở lại. Nếu đang dùng bộ tải cũ, lần mở lại đầu tiên nạp bộ tải mới; sau khi tải/chuẩn bị xong, mở lại để cài chương trình. Gói đầy đủ khoảng 1,11 GB. Không cài DAY_DU.zip trực tiếp bằng Extension Manager.
+Trong TK mở Cài đặt chung → Kiểm tra cập nhật. Nếu bộ tải cũ bị kẹt, tải file `TK_CABINET_1.99.620_CAP_NHAT.rbz` ở trên rồi vào Extension Manager → Install Extension để cài bộ tải mới. Lưu bản vẽ, đóng hết các cửa sổ SketchUp cùng phiên bản và mở lại. Khi báo đã chuẩn bị xong, lưu bản vẽ và mở lại SketchUp lần nữa để hoàn tất thay chương trình.
 
-Đã kiểm tra trực tiếp trên ADMIN-PC, SketchUp 23.0.367/Ruby 2.7.2: sáu nhóm thử nhãn, nhập số/bắt mép, xoay/vân, lọc CAM; nesting đủ tám tấm; tám kiểm tra giao diện CNC và mười kiểm tra PDF. Mở lại đã nạp đủ các mô-đun sửa. Bộ mặc định đã qua xác thực và 139 kiểm tra giá trị/giữ cấu hình riêng. Chưa chạy cắt trên máy CNC vật lý.
+Bộ tải mới kiểm tra toàn bộ 48.042 tệp thư viện đã có trên máy. Nếu thư viện đầy đủ, chỉ cần tải lại **toàn bộ chương trình 118 MB** thay vì bộ 1,11 GB, giảm khoảng 89% dung lượng tải. Nếu thư viện thiếu hoặc sai, bộ tải tự chọn gói đầy đủ. Thời gian thực tế phụ thuộc mạng và ổ đĩa. Tải bị ngắt có thể tiếp tục; có đường tải Windows dự phòng khi curl không chạy được. Bộ tải không thay đổi thiết lập bảo mật của Windows.
 
-Mã Ruby bên trong được ký và mã hóa chính thức. Nguồn đọc được lưu riêng trên máy gốc; không đưa mã kích hoạt, khóa riêng hoặc đường dẫn cá nhân vào bộ mặc định.
+## Máy khó tải: tải bằng trình duyệt hoặc chép qua USB
+
+1. Cài bộ cập nhật nhỏ ở trên.
+2. Nếu máy đã có thư viện CNC đầy đủ, tải [gói chương trình 118 MB](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.620/TK_CABINET_1.99.620_MA_HOA.rbz). Chép vào `%APPDATA%\TK CABINET\Updates\23\TK_620_program.rbz` cho SketchUp 2023, hoặc thay `23` bằng `26` cho SketchUp 2026. Tạo thư mục nếu chưa có. Không cài riêng gói này chồng vào thư mục TK cũ.
+3. Nếu chưa có thư viện, tải [bộ đầy đủ](https://github.com/kimtrongcnc-ops/tk-cabinet-updates/releases/download/v1.99.620/TK_CABINET_1.99.620_DAY_DU.zip), chép nguyên ZIP vào cùng thư mục với tên `TK_620.zip`.
+4. Trong SketchUp chọn Extensions → Tải lại TK CABINET. Bộ tải kiểm tra, chuẩn bị từ file đã chép, rồi yêu cầu mở lại SketchUp để cài. Giữ file ZIP nguyên vẹn, không cần giải nén thủ công.
+
+## Các nhóm sửa được gộp
+
+- Mô-đun tủ và thông số dạng chuỗi; Phá khối giữ nhóm tấm.
+- Nhận tấm xoay/nghiêng, chiều dày và chiều vân theo nhãn; bo góc tấm khuyết/thủng; nhãn và xếp tấm.
+- Cắt nhanh/dao tùy biến đổi hướng bằng Tab; tạo cánh, khóa điểm, thước, Enter/Space, nhớ trạng thái; dán cạnh nhớ lựa chọn.
+- Mẫu cài đặt gom nhóm, bảng cây bên trái và điều kiện chọn mẫu.
+- CNC: cân nan/khe theo tỷ lệ gốc, chèn họa tiết, chạy viền đối xứng, giữ độc lập các mục và áp dụng vào tấm bên ngoài.
+- Tương thích Ruby 2.7 của SketchUp 2023: lớp xử lý mới phải được gắn đúng vào công cụ, khắc phục lớp cũ che mất phần sửa sau khi mở lại SketchUp.
+
+Kiểm tra trên SketchUp 2023.0.367 / Ruby 2.7.2, gồm hình học xoay/nghiêng, thao tác công cụ, CNC và mở/chuyển chế độ bản vẽ PDF. Đây là kiểm tra phần mềm; không thay cho kiểm tra đường dao và chạy thử trên máy CNC thực tế.
